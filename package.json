@@ -1,0 +1,28 @@
+{
+  "name": "reminder",
+  "version": "0.1.0",
+  "description": "Remind yourself of the last time",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msarchet/reminder.git"
+  },
+  "keywords": [
+    "time-tracking",
+    "reminder"
+  ],
+  "author": "Michael Sarchet <msarchet@hey.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/msarchet/reminder/issues"
+  },
+  "homepage": "https://github.com/msarchet/reminder#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "sqlite3": "^5.0.2"
+  }
+}

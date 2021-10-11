@@ -1,0 +1,25 @@
+PUT http://localhost:8080/reminder HTTP/1.1
+content-type: application/json
+
+{
+	"owner": "Michael",
+	"reminderName": "Water Plants",
+	"lastTime": 0,
+	"interval": 3
+}
+
+###
+
+GET http://localhost:8080/reminders HTTP/1.1
+content-type: application/json
+
+{
+	"owner" : "Michael"
+}
+
+###
+DELETE http://localhost:8080/reminder/1 HTTP/1.1
+content-type: application/json
+{
+	"owner": "Michael"
+}
